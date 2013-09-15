@@ -1,0 +1,8 @@
+{
+  "name": "cssandbox",
+  "version": "0.0.1",
+  "dependencies": {
+    "css-parse": "1.5.3",
+    "optimist": "0.6.0"
+  }
+}
