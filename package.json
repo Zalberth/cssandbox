@@ -4,5 +4,9 @@
   "dependencies": {
     "css-parse": "1.5.3",
     "optimist": "0.6.0"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "cssandbox": "sandbox.js"
   }
 }

@@ -1,10 +1,12 @@
+#! /usr/local/bin/node
+
 var parse = require('css-parse'),
     fs = require('fs'),
     argv = require('optimist').argv,
-    input = argv._,
+    input = argv._[0],
     sanboxClass = argv.class;
 
-var css = fs.readFileSync('../style/dist/style.css', 'utf8'),
+var css = fs.readFileSync(input, 'utf8'),
     com = parse(css);
 
 function temperSelector(selector) {
